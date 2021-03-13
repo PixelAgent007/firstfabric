@@ -78,5 +78,6 @@ public class ModItems {
 
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "ender_sword"), ENDER_SWORD);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "snow_blaster"), SNOW_BLASTER);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "enchanted_ender_pearl"), EPEARl);
     }
 }
