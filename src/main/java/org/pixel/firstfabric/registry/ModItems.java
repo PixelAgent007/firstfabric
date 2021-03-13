@@ -14,6 +14,7 @@ import org.pixel.firstfabric.registry.enchants.TntEnchantment;
 import org.pixel.firstfabric.registry.enchants.YeetEnchantment;
 import org.pixel.firstfabric.registry.items.EnderSwordItem;
 import org.pixel.firstfabric.registry.items.SnowBlasterItem;
+import org.pixel.firstfabric.registry.materials.EnchantedEnderPearlItem;
 import org.pixel.firstfabric.registry.materials.EnderMaterial;
 
 public class ModItems {
@@ -55,6 +56,12 @@ public class ModItems {
             6,
             -2.4F,
             new Item.Settings().group(ItemGroup.COMBAT)
+    );
+
+    public static final Item EPEARl = new EnchantedEnderPearlItem(
+      new Item.Settings()
+                    .rarity(Rarity.UNCOMMON)
+                    .maxCount(16)
     );
 
     public static final Item SNOW_BLASTER = new SnowBlasterItem(
