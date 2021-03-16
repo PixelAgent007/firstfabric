@@ -3,8 +3,8 @@ package org.pixel.firstfabric.registry.materials;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class EnchantedEnderPearlItem extends Item {
-    public EnchantedEnderPearlItem(Settings settings) {
+public class EnchantedItem extends Item {
+    public EnchantedItem(Settings settings) {
         super(settings);
     }
 

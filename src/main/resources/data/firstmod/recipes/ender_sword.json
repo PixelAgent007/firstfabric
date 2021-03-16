@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PP ",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "firstmod:enchanted_ender_pearl",
+      "count": 16
+    }
+  },
+  "result": {
+    "item": "firstmod:ender_sword",
+    "count": 1
+  }
+}
