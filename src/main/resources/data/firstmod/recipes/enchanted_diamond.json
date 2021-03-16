@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DD ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond",
+      "count": 32
+    }
+  "result": {
+    "item": "firstmod:enchanted_diamond",
+    "count": 1
+  }
+}
