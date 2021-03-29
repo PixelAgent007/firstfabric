@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PQP",
+    "QPQ",
+    "PQP"
+  ],
+  "key": {
+    "P": {
+      "item": "firstmod:enchanted_ender_pearl"
+    },
+    "Q": {
+      "item": "firstmod:enchanted_blaze_powder"
+    }
+  },
+  "result": {
+    "item": "firstmod:enchanted_eye_of_ender",
+    "count": 1
+  }
+}
