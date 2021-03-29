@@ -76,6 +76,12 @@ public class ModItems {
                     .maxCount(64)
     );
 
+    public static final Item EENDEREYE = new EnchantedItem(
+            new Item.Settings()
+                    .rarity(Rarity.UNCOMMON)
+                    .maxCount(16)
+    );
+
     public static final Item SNOW_BLASTER = new SnowBlasterItem(
             new Item.Settings()
                     .rarity(Rarity.UNCOMMON)
@@ -92,6 +98,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "ender_sword"), ENDER_SWORD);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "snow_blaster"), SNOW_BLASTER);
 
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "enchanted_eye_of_ender"), EENDEREYE);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "enchanted_ender_pearl"), EPEARl);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "enchanted_blaze_powder"), EBLAZEPOWDER);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "enchanted_diamond"), EDIAMOND);
