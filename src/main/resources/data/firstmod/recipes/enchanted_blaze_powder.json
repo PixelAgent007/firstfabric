@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "firstmod:enchanted_blaze_powder",
+    "count": 1
+  }
+}
