@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "DDD",
-    "DD ",
-    "   "
+    "PPP",
+    "PPP",
+    "PPP"
   ],
   "key": {
-    "D": {
-      "item": "minecraft:diamond",
-      "count": 32
+    "P": {
+      "item": "minecraft:diamond_block"
     }
+  },
   "result": {
     "item": "firstmod:enchanted_diamond",
     "count": 1
